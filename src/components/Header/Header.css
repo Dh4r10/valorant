@@ -1,0 +1,50 @@
+header {
+  background-color: var(--header-color);
+  color: var(--text-color-secundary);
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 0.5em 4em;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.navbar-link {
+  margin-right: 2em;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbar-menu a:hover {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+  transition: .1s;
+}
+
+.navbar-btn {
+  display: none;
+  border: 0;
+  background-color: var(--header-color);
+}
+
+.navbar-svg {
+  width: 2.5em;
+  height: 2.5em;
+  fill: var(--primary-color);
+}
+
+.navbar-logo {
+  width: 45px;
+  border: 2px solid var(--primary-color);
+  padding: 5px;
+}

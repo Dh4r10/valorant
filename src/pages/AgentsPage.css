@@ -1,0 +1,119 @@
+.valorant {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/agent-background-generic.JPG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.valorant .container {
+  height: 100%;
+  padding: 4.5em 0;
+}
+
+.agent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agent-box {
+  width: 90%;
+  height: 41.75em;
+  display: grid;
+  color: var(--text-color);
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border: 3px solid var(--primary-color);
+  border-radius: 1em;
+}
+
+.agent-img {
+  height: 35em;
+  /* background-image: url(https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+}
+
+.img1 {
+  height: 45em;
+  position: relative;
+  top: -5em;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.img2 {
+  height: 32em;
+  position: relative;
+  top: -44em;
+  z-index: 1;
+}
+
+.agent-role img {
+  width: 35px;
+  display: inline-block;
+}
+
+.agent-info h1{
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-size: 5.5em;
+  color: var(--primary-color);
+}
+               
+.agent-info p {
+  display: inline-block;
+  margin: 0.5em 0;
+}
+
+.agent-role {
+  margin-top: 4em;
+}
+
+.agent-description {
+  margin-top: 2em;
+}
+
+.agent-description p {
+  margin-bottom: 1.5em;
+}
+
+.agent-info h3 {
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.agent-info {
+  /* letter-spacing: .04em; */
+  padding: 1em 4em;
+}
+
+.agent-role p{
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width: 1050px) {
+  .agent-box{
+    grid-template-columns: 1fr;
+    height: 94%;
+  }
+}
+
+@media (max-width: 750px) {
+  .agent-box{
+    border: none;
+  }
+
+  .img1 {
+    height: 40em;
+  }
+  
+  .img2 {
+    height: 30em;
+  }
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+:root {
+  --primary-color: #FF4B50;
+  --secondary-color: #27272fff;
+
+  --header-color: #081017;
+  --color-fonfo-cards: #323c44;
+  --color-crads: #0e1923;
+  --text-color: #fff;
+  --text-color-secundary: #adadb1ff;
+}
+
+/* Reseteamos los margin y paddings de todas las etiquetas */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+  
+  /* Evitasmos problemas con las imagenes */
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+  
+/* Reseteamos los enlaces para funcionar como cajas... */
+a {
+  display: block;
+}
+/* ... excepto las que se encuentran en párrafos */
+p a {
+  display: inline;
+}
+    
+/* Quitamos los puntos de los <li> */
+li {
+  list-style: none;
+}
+    
+/* Configuramos anclas suaves */
+html {
+  scroll-behavior: smooth;
+}
+  
+/* Desactivamos estilos por defecto de las principales etiquetas de texto */
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+    font-size: 1em;
+    text-decoration: none;
+    color: inherit;
+}
+  

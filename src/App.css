@@ -1,0 +1,13 @@
+/* Configuramos la tipografía para toda la web */
+.App {
+  /* min-width: 100vh; */
+  font-family: 'Inter', sans-serif;
+  font-size: 100%;
+  line-height: 1.4em;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
